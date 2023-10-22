@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Forms</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="app.js"></script>
+    <script></script>
+</head>
+
+<body>    
+
+    <header>
+        <h1>Survey form</h1>   
+    </header>
+
+    <main>
+        <form action="#">
+
+            <div>
+                <p>Name</p>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" value="" placeholder="Enter your name"/>
+            </div>
+
+        <div>
+                <p>Email</p>
+                <label for="email" class="label"></label>
+                <input type="email" name="email" id="email" value="" placeholder="Enter your mail">
+            </div>
+
+            <div>
+                <p>Age</p>
+                <label for="age"></label>
+                <input type="number" name="age" id="age" value="" min="0" max="120" placeholder="Enter your age">
+            </div>    
+            
+            <div>
+                <p>Which best option describes you?</p>
+                <label for="description"></label>
+                <select name="description" id="description">
+                    <option value="Student">Student</option>
+                    <option value="Employee">Employee</option>
+                    <option value="Retired">Retired</option>
+                    <option value="Other">Other</option>
+                </select>   
+            </div>
+            
+            <div>
+                <p>Would you recommend this site?</p>
+                <P>
+                    <input type="radio" name="recommend" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                </P>
+                <P>
+                    <input type="radio" name="recommend" id="no" value="no">
+                    <label for="no">No</label>
+                </P>
+                    <input type="radio" name="recommend" id="maybe" value="maybe">
+                    <label for="maybe">Maybe</label>
+                <P></P>
+                
+            </div>
+
+            <div id="frame">
+                <p>Language and Frameworks known</p>
+                <P>
+                    <input type="checkbox" name="framework1" id="framework1" value="C">
+                    <label for="framework1">C</label>
+                </p>
+                <P>
+                    <input type="checkbox" name="framework2" id="framework2" value="C++">
+                    <label for="framework2">C++</label>
+                </P>
+                <P>
+                    <input type="checkbox" name="framework3" id="framework3" value="java">
+                    <label for="framework3">Java</label>                
+                </P>
+                <P>
+                    <input type="checkbox" name="framework4" id="framework4" value="js">
+                    <label for="framework4">JavaScript</label>
+                </P>
+                <P>
+                    <input type="checkbox" name="framework5" id="framework5" value="react">
+                    <label for="framework5">React</label>
+                </P>
+                <P>                    
+                    <input type="checkbox" name="framework6" id="framework6" value="angular">
+                    <label for="framework6">Angular</label>
+                </P>
+                <P>
+                    <input type="checkbox" name="framework7" id="framework7" value="phyton">
+                    <label for="framework7">Phyton</label>
+                </P>
+                <P>
+                    <input type="checkbox" name="framework8" id="framework8" value="django">
+                    <label for="framework8">Django</label>
+                </P>
+                <P>
+                    <input type="checkbox" name="framework9" id="framework9" value="spring">
+                    <label for="framework9">Spring</label>
+                </P>
+                <P>
+                    <input type="checkbox" name="framework10" id="framework10" value="php">
+                    <label for="framework10">PHP</label>
+                </P>              
+            </div>
+
+            <div>
+                <p>Comments</p>
+                <textarea id="comment" name="comment" rows="4" cols="50"> </textarea>
+            </div>
+            
+            <div>
+                <input type="submit" onclick="result()" name="" id="submit" >
+            </div>
+
+            <div>
+                <input type="reset">
+            </div>
+
+        </form>     
+
+    </main>
+    
+</body>
+</html>

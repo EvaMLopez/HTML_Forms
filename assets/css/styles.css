@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+    background-color: #74728f;      
+}
+
+h1 {
+    color: white;
+    text-align: center;}
+
+form {
+    background-color: white;    
+    margin: 20px 150px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+div {
+    margin: 30px;
+}
+
+input {
+    width: 100%;   
+    height: 30px;
+}
+
+form select {
+    font-size: 15px;
+}
+
+form input[type="radio"] {
+    vertical-align: middle;
+    width: 14px;
+    text-align: center; 
+}
+
+form input[type="checkbox"] {
+    vertical-align: middle;
+    width: 14px;       
+    text-align: right;
+}
+
+textarea{
+	width:100%;
+	height:100%;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;				
+}
+
+form input[type="submit"] {
+	width:100%;
+    font-size: 18px;
+    height: 35px;    
+	border:1px solid #000;
+	display:block;
+	color:#fff;
+    background-color: #74728f;
+    margin-bottom: 30px; 
+    cursor: pointer;
+} 
+
+form input[type="reset"] {
+    width: 100%;
+    text-align: center;
+    color: #74728f;
+    font-size:medium;
+}
+  
+  label {
+    display: inline-block;
+  }
+
+
